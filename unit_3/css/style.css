@@ -10,6 +10,7 @@ h1 {
 	text-transform: uppercase;
 	text-align: right;
 	background-color: #000;
+	background-margin: 100px 5px ;
 	margin: 20px 15px;
 
 }
@@ -17,9 +18,11 @@ h3 {
 	font-family: Helvetica;
 	font-weight: italic;
 	text-align: right;
+	margin-right: 15px;
 }
 p {
 	font-family: sans-serif;
 	font-weight: normal;
 	font-style: italic;
+	text-align: justify;
 }
