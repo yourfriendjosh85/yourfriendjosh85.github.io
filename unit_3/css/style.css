@@ -1,5 +1,7 @@
 body {
+	text-align: right;
 	background: url("http://images.solecollector.com/complex/image/upload/jlnx6cnlpt550zpioyaz.jpg");
+	background-size: cover;
 }
 h1, h3, p {
 	color: #FFF;
