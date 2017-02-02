@@ -1,6 +1,6 @@
 body {
 	text-align: right;
-	background: url("http://images.solecollector.com/complex/image/upload/jlnx6cnlpt550zpioyaz.jpg");
+	background: url("https://github.com/yourfriendjosh85/yourfriendjosh85.github.io/blob/master/unit_3/images/sneakers.png");
 	background-size: cover;
 }
 h1, h3, p {
@@ -8,24 +8,40 @@ h1, h3, p {
 }
 h1 {
 	font-family: Helvetica, sans-serif;
-	font-size: 70px;
+	font-size: 40px;
 	text-transform: uppercase;
-	text-align: right;
+	text-align: right-justify;
+	padding: 30px 35px;
 	background-color: #000;
-	background-size: 100px;
-	margin: 20px 15px;
-
+	margin: 30px 20px 15px 1500px;
+	border-radius: 0em;
+	box-shadow: 0px rgba(0, 0, 0, 0.75);
+	
 }
 h3 {
-	font-family: Helvetica;
-	font-weight: italic;
+	font-family: Verdana, serif;
+	font-size: 17px;
+	font-weight: normal;
+	text-transform: uppercase;
 	text-align: right;
-	margin-right: 15px;
+	margin-top: -45px;
+	margin-right: 100px;
+	margin-bottom: 70px;
 }
+
 p {
 	font-family: sans-serif;
 	font-weight: normal;
 	font-style: italic;
-	text-align: right;
-	background-color: rgba(0,0,0,.3);
+	text-align: center;
+	background-color: rgba(0,0,0,1);
+	margin: 20px 20px 15px 1500px;
+	padding: 15px;
+}
+a {
+	color: #FF0000;
+}
+#rare{
+	color: #FF0000;
+	font-style: italic;
 }
