@@ -1,0 +1,25 @@
+body {
+	background: url("http://images.solecollector.com/complex/image/upload/jlnx6cnlpt550zpioyaz.jpg");
+}
+h1, h3, p {
+	color: #FFF;
+}
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 70px;
+	text-transform: uppercase;
+	text-align: right;
+	background-color: #000;
+	margin: 20px 15px;
+
+}
+h3 {
+	font-family: Helvetica;
+	font-weight: italic;
+	text-align: right;
+}
+p {
+	font-family: sans-serif;
+	font-weight: normal;
+	font-style: italic;
+}
