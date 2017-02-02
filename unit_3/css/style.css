@@ -1,41 +1,38 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	text-align: right;
+	color:#333;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight:400;
+	font-size:16px;
+}
+#splash {
 	background: url("http://i53.photobucket.com/albums/g80/joshua_bell2/sneakers_zpsxjrr8ih9.png?t=1485976432");
 	background-size: cover;
 }
-h1, h3, p {
-	color: #FFF;
-}
 h1 {
-	font-family: Helvetica, sans-serif;
+	
 	font-size: 40px;
 	text-transform: uppercase;
 	text-align: right-justify;
 	padding: 30px 35px;
 	background-color: #000;
-	margin: 30px 20px 15px 1500px;
+	/* margin: 30px 20px 15px 1500px; */
 	border-radius: 0em;
 	box-shadow: 0px rgba(0, 0, 0, 0.75);
-	
+	color:#eee;
 }
-h3 {
-	font-family: Verdana, serif;
+h2 {
+	font-family: Verdana, sans-serif;
 	font-size: 17px;
 	font-weight: normal;
 	text-transform: uppercase;
 	text-align: right;
-	margin-top: -45px;
 	margin-right: 100px;
 	margin-bottom: 70px;
 }
 
 p {
-	font-family: sans-serif;
 	font-weight: normal;
-	font-style: italic;
-	text-align: center;
-	background-color: rgba(0,0,0,1);
-	margin: 20px 20px 15px 1500px;
 	padding: 15px;
 }
 a {
@@ -44,4 +41,24 @@ a {
 #rare{
 	color: #FF0000;
 	font-style: italic;
+}
+nav a:first-of-type, nav a:nth-of-type(2) {
+	float:left;
+}
+nav a:nth-of-type(3), nav a:last-of-type {
+	float:right;
+}
+.logo {
+	text-align:center;
+}
+header a {
+	width:20%;
+	display:inline-block;
+	padding:2em 0;
+	text-align:center;
+	border:1px solid
+}
+header {
+	width:1200px;
+	margin:auto;
 }
