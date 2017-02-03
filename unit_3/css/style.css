@@ -21,6 +21,13 @@ h1 {
 	box-shadow: 0px rgba(0, 0, 0, 0.75);
 	color:#eee;
 }
+main {
+	background:#222;
+	padding: 20px;
+}
+.img {
+	width: 250px;
+}
 h2, p {
 	float: right;
 	width: 30%;
