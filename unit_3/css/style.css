@@ -21,6 +21,9 @@ h1 {
 	box-shadow: 0px rgba(0, 0, 0, 0.75);
 	color:#eee;
 }
+h2, p {
+	float: right;
+}
 h2 {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 17px;
