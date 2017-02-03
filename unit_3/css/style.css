@@ -74,4 +74,6 @@ header {
 	padding-bottom: 10px;
 	text-align: center;
 }
-	
+.cta {
+	font-size: 20px;
+}
