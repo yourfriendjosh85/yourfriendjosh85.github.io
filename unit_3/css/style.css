@@ -21,6 +21,10 @@ h1 {
 	box-shadow: 0px rgba(0, 0, 0, 0.75);
 	color:#eee; 
 }
+#searchbar {
+	float: right;
+	padding: 0em;
+}
 #wrapper {
 	width: 721px;
     float: left;
