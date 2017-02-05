@@ -98,7 +98,7 @@ header a {
 	text-decoration: none;
 }
 header {
-	width:1200px;
+	width:auto;
 }
 .menu {
 	display: block;
