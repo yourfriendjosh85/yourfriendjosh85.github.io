@@ -110,6 +110,10 @@ header {
 	margin-right: 5px;
     
 }
+.Contact{
+	width: 160px;
+	float: right;
+}
 .cta {
 	font-size: 20px;
 }
