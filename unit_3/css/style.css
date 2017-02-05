@@ -5,11 +5,7 @@ body {
 	font-weight:400;
 	font-size:16px;
 }
-.headerwrapper {
-	width: 1200px;
-	height: 60px;
-	padding-bottom: 60px;
-}
+
 #splash {
 	background: url("http://i53.photobucket.com/albums/g80/joshua_bell2/sneakers_zpsxjrr8ih9.png?t=1485976432");
 	background-size: cover;
