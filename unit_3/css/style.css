@@ -67,6 +67,7 @@ p {
 }
 a {
 	color: #000;
+	text-decoration: none;
 }
 #rare{
 	color: #FF0000;
