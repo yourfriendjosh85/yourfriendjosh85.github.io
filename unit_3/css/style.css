@@ -37,7 +37,7 @@ h1 {
 .sneakerlist {
 	display: block;
     width: 510px;
-    height: 280px;
+    height: auto;
     overflow: hidden;
     margin-bottom: 5px;
     float: right;
