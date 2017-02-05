@@ -53,10 +53,12 @@ h2 {
 	margin-bottom: 70px;
 }
 #about {
-	float: right;
-	line-height: 1.5px;
-	margin-top: 100%;
-	
+	    width: 160px;
+	float: left;
+	  padding-left: 5px;
+    	padding-right: 13px;
+   	margin-top: 2px;
+    	padding-top: 5px;
 }
 
 p {
