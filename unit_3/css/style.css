@@ -23,7 +23,11 @@ h1 {
 }
 #searchbar {
 	float: right;
+	margin-right: 150px;
 	padding: 0em;
+}
+.submit {
+	width: 20px;
 }
 #wrapper {
 	width: 721px;
