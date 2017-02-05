@@ -111,7 +111,6 @@ header {
 .menu {
 	width: 160px;
 	float: right;
-	position: fixed;
         margin-left: 9px;
 	margin-right: 5px;
     
