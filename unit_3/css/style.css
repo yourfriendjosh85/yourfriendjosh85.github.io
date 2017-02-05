@@ -21,6 +21,13 @@ h1 {
 	box-shadow: 0px rgba(0, 0, 0, 0.75);
 	color:#eee;
 }
+.wrapper {
+	width: 921px;
+    float: left;
+    margin-top: 2px;
+    padding-top: 5px;
+    border-top: 1px solid black;
+}
 .sneakerlist {
 	display: block;
     width: 510px;
