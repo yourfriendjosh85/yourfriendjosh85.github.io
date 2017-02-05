@@ -30,7 +30,7 @@ h1 {
 	width: 20px;
 }
 #wrapper {
-	width: 721px;
+	width: 921px;
     float: left;
     margin-top: 2px;
     padding-top: 5px;
@@ -39,8 +39,8 @@ h1 {
 .sneakerlist {
 	display: block;
     width: 510px;
-    height: auto;
-    overflow: hidden;
+    height: 510px;
+    overflow: auto;
     margin-bottom: 5px;
     float: right;
 }
