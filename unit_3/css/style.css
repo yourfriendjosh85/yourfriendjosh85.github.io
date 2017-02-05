@@ -8,6 +8,8 @@ body {
 .headerwrapper {
 	position: fixed;
 	align: center;
+	width: 1200px;
+	height: 160px;
 	padding-bottom: 10px;
 }
 #splash {
