@@ -26,7 +26,7 @@ h1 {
     float: left;
     margin-top: 2px;
     padding-top: 5px;
-    border-top: 1px solid black;
+    
 }
 .sneakerlist {
 	display: block;
@@ -80,7 +80,7 @@ nav a:nth-of-type(3), nav a:last-of-type {
 }
 #logo {
 	text-align:center;
-	font-size:70%;
+	font-size:30%;
 	text-decoration: none;
 }
 header a {
