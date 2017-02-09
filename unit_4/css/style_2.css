@@ -6,21 +6,23 @@ body {
 	background-color:#f1f1f1;
 	font-family: "Oswald", Arial, sans-serif;
 	font-weight:400;
-	font-size:1.2em;
+	font-size: 20px;
+}
+section {
+	padding:5em 0;
+}
+nav {
+	float:right;
 }
 #wrapper {
 	width: 1200px;
-	padding:0;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:f0f0f0;
-	align-content:center;
+	background-color: #f0f0f0;
 }
 header {
-	width: 1200px;
-	height: 40px;
 	background-color: #000;
-	padding-bottom:5px;
+	padding: 1em;
 }
 #navigation {
 	text-align: center;
@@ -34,16 +36,17 @@ a {
 	text-decoration: none;
 
 }
-.topnav {
+nav a {
 	color: #f1f1f1;
-
 	font-family:"Futura", Arial, sans-serif;
+	display: inline-block;
+	padding: .5em 1em;
 }
 #logo {
-	padding-top:20px;
+	padding-top: 4px;
 	align-content: center;
-	size: auto;
-	padding-right: 10px;
+	padding: .5em 1em;
+	float: left;
 }
 .info {
 	max-width:560px;
@@ -57,12 +60,17 @@ h1, h2 {
 }
 .sneakerlist {
 	display: block;
-    width: 620px;
-    height: 610px;
-    overflow: auto;
-    margin-bottom: 5px;
-    float: right;
-    background-color: #fff;
+	/* width: 620px; */
+	/* height: 610px; */
+	/* overflow: auto; */
+	margin-bottom: 5px;
+	/* float: right; */
+	background-color: #fff;
+}
+.sneakerlist img {
+	float:left;
+	width: 25%;
+	/* height: 113px; */
 }
 #footlocker {
 	width: 1200px;
@@ -84,4 +92,19 @@ footer {
 }
 .bottnav {
 	color: #f1f1f1;
+}
+.splash {
+	background:url(http://i53.photobucket.com/albums/g80/joshua_bell2/SOLE_SOCIETY_SPLASH_zpsagvz15ph.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 24em;
+	text-align: center;
+	padding: 10em 0 0;
+}
+.clearfix:after {
+	clear:both;
+	display:block;
+	height:0;
+	visibility:hidden;
+	content:" ";
 }
