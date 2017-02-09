@@ -48,7 +48,7 @@ a {
 .info {
 	max-width:560px;
 	line-height: 1.5em;
-	padding-left: 4.5px;
+	padding-left: 2em;
 }
 h1, h2 {
 	text-transform: uppercase;
@@ -59,7 +59,7 @@ h1, h2 {
 	display: block;
     width: 620px;
     height: 610px;
-    align-content: center;
+    /*align-content: center;*/
     overflow: auto;
     margin-bottom: 5px;
     float: right;
