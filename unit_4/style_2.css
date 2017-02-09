@@ -1,5 +1,7 @@
-* { margin:0; padding:0; box-sizing:border-box; }
 @import url(https://fonts.googleapis.com/css?family=Oswald:300);
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
 body {
 	background-color:#f1f1f1;
 	font-family: "Oswald", Arial, sans-serif;
