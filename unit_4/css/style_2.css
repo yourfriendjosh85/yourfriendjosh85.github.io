@@ -82,6 +82,8 @@ h1, h2 {
 	color: #f1f1f1;
 }
 footer {
+	display: block;
+	background-color: #000;
 	font-size: 12px;
 	width: 1200px;
 	padding-right: 15px;
