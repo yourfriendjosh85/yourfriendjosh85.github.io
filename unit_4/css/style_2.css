@@ -18,10 +18,13 @@ subnav {
 	float: right;
 }
 .subnavbutton {
-	margin: 15px 1em;
-	padding: .5em;
-	background: #000;
-	color: #f1f1f1;
+	margin: 1em 1em;
+    	padding: 0.5em 1em;
+    	background: #000;
+    	color: #f1f1f1;
+    	font-size: 0.8em;
+    	text-align: center;
+    	text-decoration: none;
 }
 #wrapper {
 	width: 1200px;
@@ -74,6 +77,8 @@ nav a {
 }
 #how-it-works {
 	line-height: 2.5em;
+	margin: 0 .5em;
+	padding: auto;
 }
 .big-number {
 	font-size: 80px;
@@ -87,6 +92,13 @@ nav a {
     	background: rgb(0, 0, 0);
     	padding: 2.5em 2.5em;
     	color: #f1f1f1;
+	text-align: center;
+}
+#membership-levels {
+	list-style: none;
+	padding: 2em 3.5em;
+	margin: 2em;
+	border: 4px solid black;
 }
 	
 /*.info {
