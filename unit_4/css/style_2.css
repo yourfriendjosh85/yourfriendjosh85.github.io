@@ -49,11 +49,32 @@ nav a {
 	padding: .5em 1em;
 	float: left;
 }
-.info {
+.what-is { 
+	margin: 2em;
+	padding: 2em;
+	line-height: 1.5em; 
+	background: #000;
+	color: f1f1f1;
+}
+.how-it-works {
+	line-height: 1.5em;
+}
+#big-number {
+	font-size: 18px;
+	color: #f1f1f1;
+	text-align: center;
+}
+.123section {
+	margin: 2em;
+	background: rgb(0, 0, 0);
+	padding: 1.5em;
+}
+	
+/*.info {
 	max-width:560px;
 	line-height: 1.5em;
 	padding-left: 2em;
-}
+}*/
 h1, h2 {
 	text-transform: uppercase;
 	font-family: "Futura", Arial, sans-serif;
