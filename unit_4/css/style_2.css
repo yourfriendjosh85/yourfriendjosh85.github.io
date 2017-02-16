@@ -52,29 +52,30 @@ nav a {
 }
 .latestadditions {
 	background-color: #000;
-	padding: inherit;
+	margin: 2em 20px;
 	text-align: center;
 	color: #f1f1f1;
 }
-.what-is { 
+#what-is { 
 	margin: 2em;
 	padding: 2em;
 	line-height: 1.5em; 
 	background: #000;
-	color: f1f1f1;
+	color: #f1f1f1;
 }
-.how-it-works {
+#how-it-works {
 	line-height: 1.5em;
 }
-#big-number {
+.big-number {
 	font-size: 18px;
 	color: #f1f1f1;
 	text-align: center;
 }
-.123section {
+.numbersection {
 	margin: 2em;
 	background: rgb(0, 0, 0);
 	padding: 1.5em;
+	color: #f1f1f1;
 }
 	
 /*.info {
