@@ -49,6 +49,13 @@ nav a {
 	padding: .5em 1em;
 	float: left;
 }
+}
+.latestadditions {
+	background-color: #000;
+	padding: inherit;
+	text-align: center;
+	color: #f1f1f1;
+}
 .what-is { 
 	margin: 2em;
 	padding: 2em;
