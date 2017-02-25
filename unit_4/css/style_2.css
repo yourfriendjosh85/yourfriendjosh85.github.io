@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300);
+@import url(https://fonts.googleapis.com/css?family=Didact+gothic);
 
 * { margin:0; padding:0; box-sizing:border-box; }
 
@@ -12,7 +13,8 @@ section {
 	padding:5em 0;
 }
 nav {
-	float:right;
+	text-align:center;
+	margin: 0 1em;
 }
 #subnav {
 	float: right;
@@ -54,7 +56,7 @@ a {
 }
 nav a {
 	color: #f1f1f1;
-	font-family:"Futura", Arial, sans-serif;
+	font-family:"Didact+gothic", Arial, sans-serif;
 	display: inline-block;
 	padding: .5em 1em;
 	text-decoration: none;
@@ -140,8 +142,10 @@ h1, h2 {
 footer {
 	display: block;
 	background-color: #000;
-	font-size: 12px;
+	font-size: 16px;
+	padding-top: 3em;
 	width: 1200px;
+	height: 140px;
 	padding-right: 15px;
 	color: #f1f1f1;
 }
