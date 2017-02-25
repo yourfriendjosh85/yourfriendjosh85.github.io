@@ -40,7 +40,7 @@ header {
 }
 #biglogo {
 	display: inline-block;
-	size: 600px;
+	width: 600px;
 	margin: 1em;
 }
 	
