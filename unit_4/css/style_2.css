@@ -101,6 +101,15 @@ nav a {
     	color: #f1f1f1;
 	text-align: center;
 }
+#numsec {
+	clear:both;
+	float: left;
+	font-size: 30px;
+	padding: 2em;
+	width: 40%;
+	margin: 5% 30%;
+	text-align: center;
+}
 #membership-levels {
 	list-style: none;
 	padding: 2em 3.5em;
