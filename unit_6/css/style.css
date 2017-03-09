@@ -106,6 +106,9 @@ nav a {
 	/* height: 192px; */
 	display: inline-block;
 }
+ul {
+	padding-right: 1em;
+}
 #number-one {
 	width: 265px;
 	height: 265px;
