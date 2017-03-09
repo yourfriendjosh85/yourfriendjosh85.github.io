@@ -70,16 +70,17 @@ nav a {
 }
 #latestadditions {
 	background-color: #000;
-	margin: 2em 20px;
+	margin: 2em 0.25em;
+	padding: 0 .5em;
 	text-align: center;
 	color: #f1f1f1;
 }
-#what-is { 
+#what-is {
 	margin: 2em 0;
-    	padding: 4em;
-    	line-height: 3.5em;
-    	background: #000;
-    	color: #f1f1f1;
+	padding: 4em;
+	line-height: 1.5em;
+	background: #000;
+	color: #f1f1f1;
 }
 #how-it-works {
 	line-height: 2.5em 0;
@@ -161,8 +162,9 @@ span {
 .sneakerlist {
 	display: block;
 	/* width: 620px; */
-	height: 610px;
+	height: 26em;
 	overflow: auto;
+	padding: .5em 0 0;
 	margin-bottom: 2em;
 	/* float: right; */
 	background-color: #fff;
@@ -184,6 +186,7 @@ span {
 ul {
 	margin-left: .5em;
 	list-style: none;
+	padding:  .5em;
 }
 footer {
 	display: block;
@@ -191,7 +194,7 @@ footer {
 	font-size: 16px;
 	padding-top: 3em;
 	width: 70em;
-	height: 19em;
+	height: 8em;
 	padding-right: 3em;
 	color: #f1f1f1;
 	clear: both;
