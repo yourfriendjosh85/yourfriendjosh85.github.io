@@ -91,16 +91,16 @@ nav a {
 	/* clear: right; */
 }
 .big-number {
-	font-size: 49px;
-	/* padding-bottom: 0em; */
+	font-size: 3em;
+	/*padding-bottom: 1em;*/
 	color: #f1f1f1;
 	text-align: center;
 }
 .numbersection {
-	margin: 0.5em;
-	font-size: 18px;
+	margin: .5em 1em 0 0;
+	font-size: 1.5em;
 	background: rgb(0, 0, 0);
-	padding: 3.5em 2.5em;
+	padding: 1.5em 1em;
 	color: #f1f1f1;
 	text-align: center;
 	float: left;
@@ -108,24 +108,24 @@ nav a {
 	display: inline-block;
 }
 #number-one {
-	width: 14.5em;
-	height: 15em;
+	width: 8.5em;
+	height: 9em;
 }
 #number-two {
-	width: 14.5em;
-	height:  15em;
+	width: 8.5em;
+	height:  9em;
 }
 #number-three {
-	width: 14.5em;
-	height:  15em;
+	width: 8.5em;
+	height:  9em;
 }
 #numsec {
 	/* clear:both; */
 	/* float: left; */
-	font-size: 21px;
-	padding: 2em 2em;
-	width: 25em;
-	margin: 1em 7em;
+	font-size: 2em;
+	padding: .5em 2em;
+	width: 15em;
+	margin: 1em 3em;
 	text-align: center;
 }
 #membership-levels {
