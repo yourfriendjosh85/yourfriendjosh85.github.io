@@ -205,6 +205,15 @@ nav {
 .bottnav {
 	color: #f1f1f1;
 }
+#social {
+	float: right;
+	display: inline-block;
+	/* margin: 0 0.5em; */
+	/* padding: 0 .5em; */
+	/* height: 10em; */
+	/* width: 8em; */
+	font-size: 17px;
+}
 .splash {
 	background:url(http://i53.photobucket.com/albums/g80/joshua_bell2/SOLE_SOCIETY_SPLASH_BLANK_zps2wzzf6de.png);
 	background-size:cover;
