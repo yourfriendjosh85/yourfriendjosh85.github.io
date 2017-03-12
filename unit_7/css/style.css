@@ -29,7 +29,7 @@ nav {
     	text-decoration: none;
 }
 #wrapper {
-	width: 56em;
+	width: 70%;
 	margin-left:auto;
 	margin-right:auto;
 	background-color: #f0f0f0;
@@ -40,8 +40,8 @@ header {
 }
 #biglogo {
 	display: inline-block;
-	width: 49em;
-	margin: 1em;
+	width: 86%;
+	margin: 1%;
 }
 a {
 	text-decoration: none;
@@ -188,14 +188,14 @@ nav {
 	background:url(http://i53.photobucket.com/albums/g80/joshua_bell2/SOLE_SOCIETY_SPLASH_BLANK_zps2wzzf6de.png);
 	background-size:cover;
 	background-repeat:no-repeat;
-	height: 24em;
+	height: auto;
 	text-align: center;
-	padding: 3em 0 0;
+	padding: 10% 0;
 }
 h3 {
 	background-color: #000;
 	color: #fff;
-	padding: 1em;
+	padding: 3%;
 	display:inline-block;
 	margin-top: 50px;
 	border-radius: 8px;
