@@ -1,0 +1,212 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300);
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	background-color:#f1f1f1;
+	font-family: "Oswald", Arial, sans-serif;
+	font-weight:400;
+	font-size: 20px;
+}
+section {
+	padding:5em 0;
+}
+nav {
+	text-align:center;
+	margin: 0 1em;
+}
+#subnav {
+	float: right;
+}
+.subnavbutton {
+	margin: 1em 1em;
+    	padding: 0.5em 1em;
+    	background: #000;
+    	color: #f1f1f1;
+    	font-size: 0.8em;
+    	text-align: center;
+    	text-decoration: none;
+}
+#wrapper {
+	width: 56em;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #f0f0f0;
+}
+header {
+	background-color: #000;
+	padding: 1em;
+}
+#biglogo {
+	display: inline-block;
+	width: 49em;
+	margin: 1em;
+}
+a {
+	text-decoration: none;
+}
+nav a {
+	color: #f1f1f1;
+	font-family:"Didact+Gothic", Arial, sans-serif;
+	display: inline-block;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+#logo {
+	padding-top: 4px;
+	align-content: center;
+	padding: .5em 1em;
+	float: left;
+}
+#latestadditions {
+	background-color: #000;
+	margin: 2em 0.25em;
+	padding: 0 .5em;
+	text-align: center;
+	color: #f1f1f1;
+}
+#what-is {
+	margin: 2em 0;
+	padding: 4em;
+	line-height: 1.5em;
+	background: #000;
+	color: #f1f1f1;
+}
+#how-it-works {
+	line-height: 1.5em;
+	margin: 0 0.5em 0 0;
+	padding: 0 .5em .5em 0;
+	width: 43.5em;
+	float:  left;
+}
+.big-number {
+	font-size: 3em;
+	color: #f1f1f1;
+	text-align: center;
+}
+.numbersection {
+	margin: .5em 1em 0 0;
+	font-size: 1.5em;
+	background: rgb(0, 0, 0);
+	padding: 1.5em 1em;
+	color: #f1f1f1;
+	text-align: center;
+	float: left;
+	display: inline-block;
+}
+#number-one {
+	width: 8.5em;
+	height: 9em;
+}
+#number-two {
+	width: 8.5em;
+	height:  9em;
+}
+#number-three {
+	width: 8.5em;
+	height:  9em;
+}
+#numsec {
+	font-size: 2em;
+	padding: .5em 2em;
+	width: 15em;
+	margin: 1em 3em;
+	text-align: center;
+}
+#membership-levels {
+	float: right;
+	width: 12em;
+	padding: 2em .5em;
+	margin: .5em 0;
+	border: 4px solid black;
+}
+#member-pack {
+	line-height: 2.5em 0;
+	margin: 1em 1em;
+	padding: 1em;
+	width: 40em;
+	float:  left;
+}
+h1, h2 {
+	text-transform: uppercase;
+	font-family: "Futura", Arial, sans-serif;
+
+}
+span {
+	color: rgba(255,0,0,.5);
+}
+.sneakerlist {
+	display: block;
+	height: 26em;
+	overflow: auto;
+	padding: .5em 0 0;
+	margin-bottom: 2em;
+	background-color: #fff;
+}
+.sneakerlist img {
+	float:left;
+	width: 20%;
+}
+#footlocker {
+	display: inline-block;
+	padding: 40px;
+	margin-top: 10px;
+	margin-right:auto;
+	margin-left: auto;
+	background-color: #000;
+	color: #f1f1f1;
+}
+ul {
+	margin-left: .5em;
+	list-style: none;
+	padding:  .5em;
+}
+footer {
+	display: block;
+	background-color: #000;
+	font-size: 16px;
+	padding-top: 3em;
+	width: 70em;
+	height: 8em;
+	padding-right: 3em;
+	color: #f1f1f1;
+	clear: both;
+}
+nav {
+	width: auto;
+}
+.bottnav {
+	color: #f1f1f1;
+}
+#social {
+	float: right;
+	display: inline-block;
+	font-size: 17px;
+}
+.splash {
+	background:url(http://i53.photobucket.com/albums/g80/joshua_bell2/SOLE_SOCIETY_SPLASH_BLANK_zps2wzzf6de.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 24em;
+	text-align: center;
+	padding: 3em 0 0;
+}
+h3 {
+	background-color: #000;
+	color: #fff;
+	padding: 1em;
+	display:inline-block;
+	margin-top: 50px;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2), 0 .5px 10px 0 rgba(0,0,0,0.19);
+	text-decoration: none;
+}
+
+.clearfix:after {
+	clear:both;
+	display:block;
+	height:0;
+	visibility:hidden;
+	content:" ";
+}
