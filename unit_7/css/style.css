@@ -14,7 +14,7 @@ section {
 }
 nav {
 	text-align:center;
-	margin: 0 1em;
+	margin: 0 2%;
 }
 #subnav {
 	float: right;
@@ -29,7 +29,7 @@ nav {
     	text-decoration: none;
 }
 #wrapper {
-	width: 70%;
+	width: 60%;
 	margin-left:auto;
 	margin-right:auto;
 	background-color: #f0f0f0;
@@ -75,9 +75,9 @@ nav a {
 }
 #how-it-works {
 	line-height: 1.5em;
-	margin: 0 0.5em 0 0;
-	padding: 0 .5em .5em 0;
-	width: 43.5em;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 70%;
 	float:  left;
 }
 .big-number {
@@ -86,52 +86,55 @@ nav a {
 	text-align: center;
 }
 .numbersection {
-	margin: .5em 1em 0 0;
-	font-size: 1.5em;
+	margin: .5em 1em;
+	/* font-size: 1em; */
 	background: rgb(0, 0, 0);
-	padding: 1.5em 1em;
+	padding: 3em 1em;
 	color: #f1f1f1;
 	text-align: center;
 	float: left;
 	display: inline-block;
 }
 #number-one {
-	width: 8.5em;
-	height: 9em;
+	width: 25%;
+	height: 28%;
 }
 #number-two {
-	width: 8.5em;
-	height:  9em;
+	width: 25%;
+	height: 28%;
 }
 #number-three {
-	width: 8.5em;
-	height:  9em;
+	width: 25%;
+	height: 28%;
 }
 #numsec {
 	font-size: 2em;
-	padding: .5em 2em;
-	width: 15em;
-	margin: 1em 3em;
+	padding: 2% 21%;
+	width: 84%;
+	margin: 1% 0;
+	clear: both;
 	text-align: center;
 }
 #membership-levels {
 	float: right;
-	width: 12em;
-	padding: 2em .5em;
-	margin: .5em 0;
+	width: 30%;
+	height: 100%;
+	padding: 4% 2%;
+	margin: 1% 0;
 	border: 4px solid black;
+	/* clear: both; */
 }
 #member-pack {
 	line-height: 2.5em 0;
-	margin: 1em 1em;
-	padding: 1em;
-	width: 40em;
+	margin: 0 1em 1em 0;
+	padding: 1%;
+	width: 60%;
 	float:  left;
 }
 h1, h2 {
 	text-transform: uppercase;
 	font-family: "Futura", Arial, sans-serif;
-
+	font-size: 2em;
 }
 span {
 	color: rgba(255,0,0,.5);
@@ -165,11 +168,12 @@ ul {
 footer {
 	display: block;
 	background-color: #000;
-	font-size: 16px;
-	padding-top: 3em;
-	width: 70em;
-	height: 8em;
-	padding-right: 3em;
+	font-size: 1em;
+	padding: 6% 0;
+	/* padding-top: 3em; */
+	width: 100%;
+	height: auto;
+	/* padding-right: 3em; */
 	color: #f1f1f1;
 	clear: both;
 }
@@ -181,8 +185,13 @@ nav {
 }
 #social {
 	float: right;
-	display: inline-block;
-	font-size: 17px;
+	/* clear: both; */
+	display: inline;
+	font-size: 0.9em;
+	width: 10%;
+	margin-top: -4%;
+	margin-right: 10%;
+	/* padding: 0 0; */
 }
 .splash {
 	background:url(http://i53.photobucket.com/albums/g80/joshua_bell2/SOLE_SOCIETY_SPLASH_BLANK_zps2wzzf6de.png);
