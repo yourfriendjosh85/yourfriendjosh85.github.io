@@ -90,24 +90,17 @@ nav a {
 	margin: .5em .5em;
 	/* font-size: 1em; */
 	background: rgb(0, 0, 0);
-	padding: 3em 3em;
+	padding: 1.5em .5em;
 	color: #f1f1f1;
 	text-align: center;
 	float: left;
 	display: inline-block;
 }
-#number-one {
-	width: 25%;
-	height: 28%;
+#number-one, #number-two, #number-three {
+	width: 11em;
+	height: 10.5em;
 }
-#number-two {
-	width: 25%;
-	height: 28%;
-}
-#number-three {
-	width: 25%;
-	height: 28%;
-}
+
 #numsec {
 	font-size: 2em;
 	padding: 2% 21%;
@@ -170,11 +163,9 @@ footer {
 	display: block;
 	background-color: #000;
 	font-size: 1em;
-	padding: 4% 0;
+	padding: 2% 0;
 	/* padding-top: 3em; */
 	width: 100%;
-	height: auto;
-	/* padding-right: 3em; */
 	color: #f1f1f1;
 	clear: both;
 }
@@ -218,7 +209,7 @@ h3 {
 	visibility:hidden;
 	content:" ";
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
 	body {
 		font-size: 18px;
 	}
@@ -253,14 +244,8 @@ h3 {
 		clear: both;
 		display: inline;
 	}
-	#number-one {
+	#number-one, #number-two, #number-three {
 		width:40%;
-	}
-	#number-two {
-		width: 40%;
-	}
-	#number-three {
-		width: 40%;
 	}
 	#numsec {
 		width: 40%;
@@ -287,7 +272,7 @@ h3 {
 		padding: 0 5%;
 	}
 	footer {
-		padding-bottom: 3%;
+		padding-bottom: 1%;
 	}
 	nav a {
 		padding:1%;
@@ -300,7 +285,7 @@ h3 {
 		padding: 1% 0;
 	}
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 480px) {
 	body {
 		font-size: 16px;
 	}
@@ -336,17 +321,8 @@ h3 {
 		clear:both;
 		display: inline-block;
 	}
-	#number-one {
+	#number-one, #number-two, #number-three {
 		width:100%;
-	}
-	#number-two {
-		width: 100%;
-	}
-	#number-three {
-		width: 100%;
-	}
-	#numsec {
-		display: none;
 	}
 	#membership-levels {
 		clear:both;
