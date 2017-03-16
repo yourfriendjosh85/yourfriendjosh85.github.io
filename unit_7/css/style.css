@@ -29,7 +29,7 @@ nav {
     	text-decoration: none;
 }
 #wrapper {
-	width: 60%;
+	width: 50%;
 	margin-left:auto;
 	margin-right:auto;
 	background-color: #f0f0f0;
@@ -61,15 +61,16 @@ nav a {
 }
 #latestadditions {
 	background-color: #000;
-	margin: 2em 0.25em;
+	margin: 0 0.25em;
 	padding: 0 .5em;
+	width: auto;
 	text-align: center;
 	color: #f1f1f1;
 }
 #what-is {
 	margin: 2em 0;
 	padding: 4em;
-	line-height: 1.5em;
+	line-height: 2em;
 	background: #000;
 	color: #f1f1f1;
 }
@@ -86,10 +87,10 @@ nav a {
 	text-align: center;
 }
 .numbersection {
-	margin: .5em 1em;
+	margin: .5em .5em;
 	/* font-size: 1em; */
 	background: rgb(0, 0, 0);
-	padding: 3em 1em;
+	padding: 3em 3em;
 	color: #f1f1f1;
 	text-align: center;
 	float: left;
@@ -134,7 +135,7 @@ nav a {
 h1, h2 {
 	text-transform: uppercase;
 	font-family: "Futura", Arial, sans-serif;
-	font-size: 2em;
+	font-size: 150%;
 }
 span {
 	color: rgba(255,0,0,.5);
@@ -143,7 +144,7 @@ span {
 	display: block;
 	height: 26em;
 	overflow: auto;
-	padding: .5em 0 0;
+	padding: 0;
 	margin-bottom: 2em;
 	background-color: #fff;
 }
@@ -169,7 +170,7 @@ footer {
 	display: block;
 	background-color: #000;
 	font-size: 1em;
-	padding: 6% 0;
+	padding: 4% 0;
 	/* padding-top: 3em; */
 	width: 100%;
 	height: auto;
@@ -184,14 +185,12 @@ nav {
 	color: #f1f1f1;
 }
 #social {
-	float: right;
-	/* clear: both; */
+	float: none;
+	clear: both;
 	display: inline;
 	font-size: 0.9em;
 	width: 10%;
-	margin-top: -4%;
-	margin-right: 10%;
-	/* padding: 0 0; */
+	margin: 2% 2%;
 }
 .splash {
 	background:url(http://i53.photobucket.com/albums/g80/joshua_bell2/SOLE_SOCIETY_SPLASH_BLANK_zps2wzzf6de.png);
@@ -219,7 +218,89 @@ h3 {
 	visibility:hidden;
 	content:" ";
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
+	body {
+		font-size: 18px;
+	}
+	#wrapper {
+		width: 80%;
+	}
+	h2 {
+		font-size: 1.3em;
+	}
+		nav {
+		float:none;
+		width: auto;
+		margin: 1% 0;
+	}
+	#subnav {
+		float: none;
+		display: inline-block;
+		margin-right: 25%;
+		width: 100%;
+	}
+	#how-it-works {
+		float: none;
+		width: 40%;
+		margin: 1% 0;
+		padding: 1em;
+		display: inline;
+	}
+	.numbersection {
+		margin: 0;
+		padding: auto;
+		width: auto;
+		clear: both;
+		display: inline;
+	}
+	#number-one {
+		width:40%;
+	}
+	#number-two {
+		width: 40%;
+	}
+	#number-three {
+		width: 40%;
+	}
+	#numsec {
+		width: 40%;
+		height: 1.3em;
+		padding: 0.125em 5%;
+		font-size: 1.5em;
+	}
+	#membership-levels {
+		float: none;
+		clear: both;
+		width: 60%;
+		margin: -1.5em 0;
+		display: inline-block;
+	}
+	#member-pack {
+		width: 60%;
+		float: none;
+		clear: both;
+	}
+#social {
+		float: none;
+		clear: both;
+		display: inline;
+		padding: 0 5%;
+	}
+	footer {
+		padding-bottom: 3%;
+	}
+	nav a {
+		padding:1%;
+		display:block;
+		float: none;
+		clear: both;
+	}
+	nav {
+		margin:1% 0;
+		padding: 1% 0;
+	}
+}
+@media only screen and (max-width: 720px) {
 	body {
 		font-size: 16px;
 	}
@@ -236,6 +317,10 @@ h3 {
 	#subnav {
 		float: none;
 		display: inline-block;
+	}
+	.sneakerlist {
+		height: 12em;
+		overflow: auto;
 	}
 	#how-it-works {
 		float: none;
@@ -269,13 +354,15 @@ h3 {
 		float: none;
 		margin: 3% 0;
 	}
-	.bottnav {
+	#member-pack {
 		float: none;
-		display: inline-block;
+		width: auto;
 	}
-	#social {
-		float: none;
-		clear: both;
-		display: inline-block;
+	ul {
+		font-size: 1.5em;
 	}
+	p {
+		font-size: 1.5em;
+	}
+	
 }
