@@ -7,14 +7,14 @@ body {
 	background-color:#f1f1f1;
 	font-family: "Oswald", Arial, sans-serif;
 	font-weight:400;
-	font-size: 20px;
+	font-size: 19px;
 }
 section {
 	padding:5em 0;
 }
 nav {
 	text-align:center;
-	margin: 0 2%;
+	margin: 0 .25%;
 }
 #subnav {
 	float: right;
@@ -30,7 +30,7 @@ nav {
 }
 #wrapper {
 	width: 50%;
-	max-width: 1200px;
+	max-width: 1900px;
 	margin-left:auto;
 	margin-right:auto;
 	background-color: #f0f0f0;
@@ -88,10 +88,9 @@ nav a {
 	text-align: center;
 }
 .numbersection {
-	margin: .5em .5em;
-	/* font-size: 1em; */
+	margin: .2em .25em;
 	background: rgb(0, 0, 0);
-	padding: 1.5em .5em;
+	padding: 1.5em .25em;
 	width: auto;
 	color: #f1f1f1;
 	text-align: center;
@@ -99,15 +98,15 @@ nav a {
 	display: inline-block;
 }
 #number-one, #number-two, #number-three {
-	width: 11em;
-	height: 10.5em;
+	width: 10em;
+	height: 9.5em;
 }
 
 #numsec {
 	font-size: 2em;
 	padding: 2% 21%;
 	width: 84%;
-	margin: 1% 0;
+	margin: .5% 0;
 	clear: both;
 	text-align: center;
 }
@@ -213,8 +212,17 @@ h3 a {
 	visibility:hidden;
 	content:" ";
 }
-
-@media only screen and (max-width: 1554px) {
+@media only screen and (max-width: 1816px) {
+	body {
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width: 1549px) {
+	body {
+		font-size: 15.5px;
+	}
+}
+@media only screen and (max-width: 1411px) {
 	body {
 		font-size: 18px;
 	}
@@ -234,7 +242,6 @@ h3 a {
 		display: inline-block;
 		margin: .5%;
 		width: 100%;
-		font-size: 1.5em;
 		text-align: center;
 	}
 	#how-it-works {
@@ -299,10 +306,6 @@ h3 a {
 	#wrapper {
 		width: 100%;
 	}
-	#logo {
-	padding: 0;
-	float: none;
-	}
 	h2 {
 		font-size: 1.5em;
 	}
@@ -313,7 +316,6 @@ h3 a {
 	#subnav {
 		float: none;
 		display: inline-block;
-		font-size: 1.15em;
 	}
 	.sneakerlist {
 		height: 12em;
