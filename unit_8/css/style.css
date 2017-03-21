@@ -231,6 +231,7 @@ h3 {
 		display: inline-block;
 		margin: .5%;
 		width: 100%;
+		font-size: 1.5em;
 		text-align: center;
 	}
 	#how-it-works {
@@ -295,6 +296,12 @@ h3 {
 	#wrapper {
 		width: 100%;
 	}
+	#logo {
+	padding-top: 4px;
+	align-content: center;
+	padding: 0;
+	float: none;
+	}
 	h2 {
 		font-size: 1.5em;
 	}
@@ -305,6 +312,7 @@ h3 {
 	#subnav {
 		float: none;
 		display: inline-block;
+		font-size: 1.35em;
 	}
 	.sneakerlist {
 		height: 12em;
