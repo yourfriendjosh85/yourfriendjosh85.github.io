@@ -15,6 +15,11 @@ section {
 nav {
 	text-align:center;
 	margin: 0 2%;
+	font-size: .8em;
+}
+.topnav {
+	padding: 0 .5em;
+	margin: .5em 0;
 }
 #subnav {
 	float: right;
